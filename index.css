@@ -1,0 +1,28 @@
+body {
+  background-color: #618ec6;
+}
+
+header {
+  border-bottom: 1px solid;
+  border-color: black;
+  text-align: center;
+}
+img {
+  position: relative;
+  left: 140px;
+}
+h1 {
+  font-family: fantasy;
+}
+h2 {
+  font-family: monospace;
+  background-color: bisque;
+}
+
+.test {
+  background-color: aqua;
+}
+
+#test {
+  background-color: red;
+}

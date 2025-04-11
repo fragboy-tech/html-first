@@ -1,22 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <style>
-      body {
-        background-color: #ccc8de;
-      }
-
-      header {
-        border-bottom: 1px solid;
-        border-color: black;
-        text-align: center;
-      }
-    </style>
+    <link rel="stylesheet" href="index.css">
   </head>
   <body>
     <header>
       <h1>Welcome to my blog</h1>
       <span>Sharing thoughts and ideas with the world</span>
+      <title>The Blog</title>
     </header>
     <main>
       <article>
@@ -24,11 +15,33 @@
         <time>April 10, 2025</time>
         <p><i>Jane Doe</i></p>
         <p>This is my first blog post!</p>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/4o9XyskdSiY?si=rqS_2mX_5FIiHSsS"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </article>
+      <article>
+        <h2 id="test">My Favorite Books</h2>
+        <time>April 10, 2025</time>
+        <p><i>Jane Doe</i></p>
+        <img src="https://www.madrasshoppe.com/219510-large_default/best-books-to-read-for-self-help-books-Combo-of-8.jpg"></img>
+        <ul>
+          <li>Atomic Habits by James Clear</li>
+          <li>Deep Work by Cal Newport</li>
+          <li>The Alchemist by Paulo Coelho</li>
+        </ul>
       </article>
       <article>
         <h2>My Favorite Books</h2>
         <time>April 10, 2025</time>
         <p><i>Jane Doe</i></p>
+        <img src="https://www.madrasshoppe.com/219510-large_default/best-books-to-read-for-self-help-books-Combo-of-8.jpg"></img>
         <ul>
           <li>Atomic Habits by James Clear</li>
           <li>Deep Work by Cal Newport</li>
@@ -39,5 +52,7 @@
     <footer>
       <address><p>2025 Jane Doe.All rights reserved.</p></address>
     </footer>
+
+    <script src="index.js"></script>
   </body>
 </html>
